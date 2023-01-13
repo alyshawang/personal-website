@@ -40,3 +40,8 @@
 .resize {
   resize: none;
 }
+
+.errormessage {
+  font-family: "Satoshi-VariableItalic";
+  color: #3b4e54;
+}

@@ -42,6 +42,13 @@
   font-family: "Satoshi-Variable";
 }
 
+.contact {
+  font-family: "Satoshi-Variable";
+  text-align: center;
+  font-size: 40px;
+  color: #385d78;
+}
+
 .header {
   margin-top: 0px;
   font-family: "ClashDisplay-Variable";

@@ -62,56 +62,65 @@ export default function Contact() {
             data-netlify="true"
           >
             <div className={styles.container}>
-              <input
-                className={styles.input}
-                type="text"
-                id="name"
-                name="name"
-                placeholder="Name"
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-                onFocus={() => setSubmitted(false)}
-                value={formik.values.name}
-              />
-              {formik.errors.name && formik.touched.name && (
-                <p>{formik.errors.name}</p>
+              <div>
+                <input
+                  className={styles.input}
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  onFocus={() => setSubmitted(false)}
+                  value={formik.values.name}
+                />
+                {formik.errors.name && formik.touched.name && (
+                  <p className={styles.errormessage}>{formik.errors.name}</p>
+                )}
+              </div>
+              <div>
+                <input
+                  className={styles.input}
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  onFocus={() => setSubmitted(false)}
+                  value={formik.values.email}
+                />
+                {formik.errors.email && formik.touched.email && (
+                  <p className={styles.errormessage}>{formik.errors.email}</p>
+                )}
+              </div>
+              <div>
+                <textarea
+                  className={`${styles.input} ${styles.resize}`}
+                  rows={10}
+                  type="text"
+                  id="message"
+                  name="message"
+                  placeholder="Message"
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  onFocus={() => setSubmitted(false)}
+                  value={formik.values.message}
+                ></textarea>
+                {formik.errors.message && formik.touched.message && (
+                  <p className={styles.errormessage}>{formik.errors.message}</p>
+                )}
+              </div>
+              {submitted && (
+                <p className={styles.errormessage}>
+                  Submitted, I will get back to you soon!
+                </p>
               )}
-              <input
-                className={styles.input}
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Email"
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-                onFocus={() => setSubmitted(false)}
-                value={formik.values.email}
-              />
-              {formik.errors.email && formik.touched.email && (
-                <p>{formik.errors.email}</p>
-              )}
-
-              <textarea
-                className={`${styles.input} ${styles.resize}`}
-                rows={10}
-                type="text"
-                id="message"
-                name="message"
-                placeholder="Message"
-                onChange={formik.handleChange}
-                onBlur={formik.handleBlur}
-                onFocus={() => setSubmitted(false)}
-                value={formik.values.message}
-              ></textarea>
-              {formik.errors.message && formik.touched.message && (
-                <p>{formik.errors.message}</p>
-              )}
-              {submitted && <p>Submitted, I will get back to you soon!</p>}
             </div>
             <input className={styles.button} type="submit" value="Submit" />
           </form>
         </div>
-        <h1 className="classic">Let&apos;s get in touch!</h1>
+        <h1 className="contact">Let&apos;s get in touch!</h1>
       </div>
     </section>
   );
