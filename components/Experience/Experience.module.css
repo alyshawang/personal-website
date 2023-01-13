@@ -1,0 +1,16 @@
+.card {
+  background-color: #abccd5;
+  padding: 36px;
+  border-radius: 10px;
+  display: flex;
+  gap: 52px;
+}
+
+.grid {
+  display: grid;
+  gap: 65px;
+}
+
+.entire {
+  margin-bottom: 98px;
+}

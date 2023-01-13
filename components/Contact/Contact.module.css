@@ -1,0 +1,42 @@
+.input {
+  width: 100%;
+  padding: 0px;
+  border: none;
+  border-radius: 10px;
+  background-color: #bbc9cd;
+  padding: 18px;
+  font-size: 20px;
+  font-family: "ClashDisplay-Variable";
+  color: #3b4e54;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  gap: 132px;
+}
+
+.container {
+  display: grid;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #a2cdd6;
+  font-family: "ClashDisplay-Variable";
+  border-radius: 15px;
+  padding: 15px 50px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
+
+.resize {
+  resize: none;
+}
