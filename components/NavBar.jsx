@@ -1,4 +1,3 @@
-import { Main } from "next/document";
 import Link from "next/link";
 
 const links = [
@@ -14,10 +13,10 @@ export default function NavBar() {
   return (
     <nav className="main-nav">
       <ul>
-        {links.map((navbarlink) => (
-          <li className="bar">
+        {links.map((navbarlink, index) => (
+          <li className="bar" key={`link-${index}`}>
             {navbarlink.newPage ? (
-              <a href={navbarlink.link} target="_blank">
+              <a href={navbarlink.link} target="_blank" rel="noreferrer">
                 {navbarlink.text}
               </a>
             ) : (

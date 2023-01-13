@@ -111,7 +111,7 @@ export default function Contact() {
             <input className={styles.button} type="submit" value="Submit" />
           </form>
         </div>
-        <h1 className="classic">Let's get in touch!</h1>
+        <h1 className="classic">Let&apos;s get in touch!</h1>
       </div>
     </section>
   );

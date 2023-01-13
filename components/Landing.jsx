@@ -2,7 +2,7 @@ export default function Landing() {
   return (
     <header className="landing-div">
       <div>
-        <h1 className="cover">Hi, I'm Alysha.</h1>
+        <h1 className="cover">Hi, I&apos;m Alysha.</h1>
         <p3 className="other">Software Engineering Student at UWaterloo</p3>
       </div>
 
