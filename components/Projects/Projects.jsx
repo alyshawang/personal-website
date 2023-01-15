@@ -42,6 +42,7 @@ export default function Projects() {
             <a
               href="https://github.com/alyshawang/personal-website"
               target="_blank"
+              rel="noreferrer"
             >
               <div className={styles.icon}>
                 <Image src={github} />
@@ -74,6 +75,7 @@ export default function Projects() {
             <a
               href="https://github.com/alyshawang/motorized-fish-controlled-vehicle"
               target="_blank"
+              rel="noreferrer"
             >
               <div className={styles.icon}>
                 <Image src={github} />
@@ -100,7 +102,11 @@ export default function Projects() {
               <Image src={java} />
               <Image src={eclipse} />
             </div>
-            <a href="https://github.com/alyshawang/math-quiz" target="_blank">
+            <a
+              href="https://github.com/alyshawang/math-quiz"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className={styles.icon}>
                 <Image src={github} />
               </div>
