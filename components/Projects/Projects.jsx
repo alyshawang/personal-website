@@ -28,7 +28,8 @@ export default function Projects() {
               Javascript, and React to showcase projects and experiences.
             </p>
             <p className="classic">
-              <strong>Technologies:</strong> JavaScript, HTML, CSS, React
+              <strong>Technologies:</strong> JavaScript, HTML, CSS, React.js,
+              Next.js
             </p>
           </div>
           <div className={styles.images}>
@@ -38,9 +39,14 @@ export default function Projects() {
               <Image src={css} />
               <Image src={react} />
             </div>
-            <div className={styles.icon}>
-              <Image src={github} />
-            </div>
+            <a
+              href="https://github.com/alyshawang/personal-website"
+              target="_blank"
+            >
+              <div className={styles.icon}>
+                <Image src={github} />
+              </div>
+            </a>
           </div>
         </div>
         <div className={styles.card1}>
@@ -65,9 +71,14 @@ export default function Projects() {
               <Image src={node} />
               <Image src={python} />
             </div>
-            <div className={styles.icon}>
-              <Image src={github} />
-            </div>
+            <a
+              href="https://github.com/alyshawang/motorized-fish-controlled-vehicle"
+              target="_blank"
+            >
+              <div className={styles.icon}>
+                <Image src={github} />
+              </div>
+            </a>
           </div>
         </div>
 
@@ -89,9 +100,11 @@ export default function Projects() {
               <Image src={java} />
               <Image src={eclipse} />
             </div>
-            <div className={styles.icon}>
-              <Image src={github} />
-            </div>
+            <a href="https://github.com/alyshawang/math-quiz" target="_blank">
+              <div className={styles.icon}>
+                <Image src={github} />
+              </div>
+            </a>
           </div>
         </div>
       </div>

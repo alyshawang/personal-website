@@ -73,6 +73,21 @@ export default function Experience() {
             </p>
           </div>
         </div>
+        <div className={styles.card}>
+          <div>
+            <h2 className="header2">Hostess</h2>
+            <p className="italic">Mandarin Restaurant</p>
+            <p className="classic">
+              • Greeted customers when they arrived, seated them, and
+              accommodated for any issues they had
+            </p>
+            <p className="classic">
+              • Played a pivotal role in maintaining a positive experience and
+              impression for customers which required strong interpersonal
+              skills
+            </p>
+          </div>
+        </div>
       </div>
     </section>
   );

@@ -16,7 +16,7 @@ export default function NavBar() {
         {links.map((navbarlink, index) => (
           <li className="bar" key={`link-${index}`}>
             {navbarlink.newPage ? (
-              <a href={navbarlink.link} target="_blank" rel="noreferrer">
+              <a href={navbarlink.link} target="_blank">
                 {navbarlink.text}
               </a>
             ) : (
