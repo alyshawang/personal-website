@@ -1,6 +1,6 @@
 .card {
   /* background-color: #bbc9cd; */
-  background-color: #c3d0d7;
+  background-color: #DDD5F1;
   padding: 24px;
   /* padding-top: 30px; */
   border-radius: 10px;
@@ -14,12 +14,14 @@
 
 .card1 {
   /* background-color: #bbc9cd; */
-  background-color: #c3d0d7;
+  background-color: #DDD5F1;
+  
   padding: 24px;
   /* padding-top: 30px; */
   border-radius: 10px;
   margin-bottom: 98px;
   border-width: 10px;
+  
 }
 .grid {
   display: grid;

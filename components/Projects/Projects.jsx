@@ -15,7 +15,7 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section>
+    <section className = "margin">
       <h2 id="projects" className="primary">
         Projects
       </h2>

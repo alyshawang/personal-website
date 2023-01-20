@@ -1,5 +1,5 @@
 .card {
-  background-color: #abccd5;
+  background-color: #F1D5E3;
   padding: 36px;
   border-radius: 10px;
   display: flex;
@@ -12,5 +12,9 @@
 }
 
 .entire {
+  margin: 0 auto;
+
   margin-bottom: 98px;
+    max-width: 1270px;
+
 }

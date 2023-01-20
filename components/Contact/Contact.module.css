@@ -3,7 +3,7 @@
   padding: 0px;
   border: none;
   border-radius: 10px;
-  background-color: #bbc9cd;
+  background-color: #CDDFE4;
   padding: 18px;
   font-size: 20px;
   font-family: "ClashDisplay-Variable";
@@ -23,7 +23,7 @@
 }
 
 .button {
-  background-color: #a2cdd6;
+  background-color: #9ECBD9;
   font-family: "ClashDisplay-Variable";
   border-radius: 15px;
   padding: 15px 50px;
@@ -34,7 +34,11 @@
 }
 
 .section {
-  margin-bottom: 50px;
+  margin: 0 auto;
+    max-width: 1270px;
+    padding-bottom: 98px;
+
+
 }
 
 .resize {

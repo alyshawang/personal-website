@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Experience() {
   return (
-    <section className={styles.entire}>
+    <section className={styles.entire} >
       <h2 id="experience" className="primary">
         Experience
       </h2>

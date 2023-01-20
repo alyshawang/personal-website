@@ -70,9 +70,20 @@
 }
 .m-horizontal {
   margin: 0 auto;
-  max-width: 1270px;
+  /* max-width: 1270px; */
+  max-width: 1540px;
+
+  background-image: url("../public/Images/image8.svg");
+  height:380px;
+  padding-top:0.01px;
+  
 }
 
+.margin{
+  margin: 0 auto;
+    max-width: 1270px;
+
+}
 .italic {
   font-family: "Satoshi-VariableItalic";
   color: #385d78;
@@ -83,7 +94,7 @@
 }
 html {
   /* background-color: #fffdf8; */
-  background-color: #f0f3f6;
+  /* background-color: #f0f3f6; */
 }
 .cover {
   color: #3b4e54;
@@ -97,6 +108,11 @@ html {
   color: #3b4e54;
   font-family: "Satoshi-VariableItalic";
   font-size: 36px;
+  background: #C798F8;
+background: linear-gradient(to right, #C798F8 0%, #FFD4D8 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 400;
 }
 .bar {
   color: #3b4e54;
@@ -114,7 +130,12 @@ nav li {
 }
 
 .btn {
+  background: rgb(238,174,202);
+background: linear-gradient(214deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background: rgb(238,174,202);
+background: linear-gradient(214deg, rgba(238,174,202,1) 24%, rgba(199,152,248,1) 100%);
   font-family: "Satoshi-Variable";
+  
   margin-top: 56px;
   background-color: #a2cdd6;
   font-size: 19px;
@@ -143,6 +164,8 @@ nav a {
 
 nav a:hover {
   background-color: #579bb1;
+  background-color: #f4afd8;
+
 }
 
 .main-nav {
@@ -156,6 +179,7 @@ nav a:hover {
 
 .main-nav ul {
   background-color: #dae9e9;
+  background-color: #ffd4d8;
   padding-inline-start: 0px;
   border-radius: 10px;
   overflow: hidden;
@@ -169,7 +193,11 @@ nav a:hover {
 }
 
 .section {
+  margin: 0 auto;
+
   margin-bottom: 98px;
+    max-width: 1270px;
+
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
