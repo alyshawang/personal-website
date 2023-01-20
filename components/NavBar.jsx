@@ -11,6 +11,7 @@ const links = [
 
 export default function NavBar() {
   return (
+    <section className="fade">
     <nav className="main-nav">
       <ul>
         {links.map((navbarlink, index) => (
@@ -26,5 +27,6 @@ export default function NavBar() {
         ))}
       </ul>
     </nav>
+    </section>
   );
 }

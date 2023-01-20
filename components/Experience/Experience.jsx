@@ -3,9 +3,11 @@ import experienceimage from "../../public/Images/lead.svg";
 import kaizen from "../../public/Images/kaizen 1.svg";
 import Image from "next/image";
 
+
 export default function Experience() {
   return (
-    <section className={styles.entire} >
+    <section className = "fade">
+    <section className={styles.entire}  >
       <h2 id="experience" className="primary">
         Experience
       </h2>
@@ -89,6 +91,7 @@ export default function Experience() {
           </div>
         </div>
       </div>
+    </section>
     </section>
   );
 }

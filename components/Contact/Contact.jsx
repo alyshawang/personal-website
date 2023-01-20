@@ -50,6 +50,7 @@ export default function Contact() {
     },
   });
   return (
+    <section className = "fade">
     <section className={styles.section}>
       <h2 id="contact" className="primary">
         Contact
@@ -122,6 +123,7 @@ export default function Contact() {
         </div>
         <h1 className="contact">Let&apos;s get in touch!</h1>
       </div>
+    </section>
     </section>
   );
 }

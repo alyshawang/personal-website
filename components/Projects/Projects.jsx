@@ -13,9 +13,11 @@ import eclipse from "../../public/Images/eclipse.svg";
 
 import Image from "next/image";
 
+
 export default function Projects() {
   return (
-    <section className = "margin">
+    <section className = "fade">
+    <section className = "margin" >
       <h2 id="projects" className="primary">
         Projects
       </h2>
@@ -114,6 +116,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
+    </section>
     </section>
   );
 }

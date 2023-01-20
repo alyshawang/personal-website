@@ -5,6 +5,7 @@ import Image from "next/image";
 
 export default function Landing() {
   return (
+    <section className = "fade">
     <header className="landing-div">
 
       <div>
@@ -25,5 +26,6 @@ export default function Landing() {
         </a>
       </div>
     </header>
+    </section>
   );
 }

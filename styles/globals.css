@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "Panchang-Variable";
   src: url("../public/fonts/Panchang-Variable.woff2") format("woff2"),
@@ -129,15 +130,23 @@ nav li {
   display: inline;
 }
 
-.btn {
-  background: rgb(238,174,202);
-background: linear-gradient(214deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+.btn{
+  /* background: rgb(238,174,202);
+background: linear-gradient(214deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+/* 
 background: rgb(238,174,202);
 background: linear-gradient(214deg, rgba(238,174,202,1) 24%, rgba(199,152,248,1) 100%);
-  font-family: "Satoshi-Variable";
+   */
+
+font-family: "Satoshi-Variable";
   
+background: rgb(238,174,202);
+background: linear-gradient(214deg, rgba(238,174,202,1) 24%, rgba(199,152,248,1) 100%);
+
+
   margin-top: 56px;
-  background-color: #a2cdd6;
+  /* background-color: #a2cdd6; */
   font-size: 19px;
   padding: 20px 32px;
   border-radius: 9999px;
@@ -146,6 +155,13 @@ background: linear-gradient(214deg, rgba(238,174,202,1) 24%, rgba(199,152,248,1)
   text-decoration: none;
   font-size: 24px;
   color: #3b4e54;
+
+  transition-duration: 0s;
+}
+
+ .btn:hover, .btn:active{
+  background: #C798F8;
+
 }
 
 .btn a {
@@ -165,6 +181,8 @@ nav a {
 nav a:hover {
   background-color: #579bb1;
   background-color: #f4afd8;
+  transition-duration: 0.4s;
+
 
 }
 
@@ -192,12 +210,18 @@ nav a:hover {
   height: 73vh;
 }
 
-.section {
-  margin: 0 auto;
+.fade{
+animation: fade 2s;
+}
 
-  margin-bottom: 98px;
-    max-width: 1270px;
-
+@keyframes fade{
+  from{
+    opacity:0;
+  
+  }
+  to{
+    opacity: 1;
+  }
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
