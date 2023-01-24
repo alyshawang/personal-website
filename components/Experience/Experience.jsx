@@ -7,90 +7,63 @@ import Image from "next/image";
 export default function Experience() {
   return (
     <section className = "fade">
+      <section className = "entireproject">
     <section className={styles.entire}  >
-      <h2 id="experience" className="primary">
-        Experience
+      <h2 id="projects" className="primary">
+        Projects
       </h2>
       <div className={styles.grid}>
         <div className={styles.card}>
+        <h2 className="header2">01. PERSONAL WEBSITE</h2>
+
           <div>
-            <h2 className="header2">President</h2>
-            <p className="italic">
-              Leadership, Enrichment, and Development Club
-            </p>
+            
             <p className="classic">
-              • Partnered with 360Kids to fulfill the wish-lists of 30 at risk
-              and homeless youth
+            A personal website designed in Figma and created with HTML, CSS,
+            Javascript, and React to showcase projects and experiences.
             </p>
-            <p className="classic">
-              • Managed a team of 30 members to implement a mental health
-              campaign, impacting 70+ students
+            <p className="italic"> <strong>Technologies:</strong> JavaScript, HTML, CSS, React.js,
+              Next.js
             </p>
-            <p className="classic">
-              • Led the executive team by communicating with teacher advisors,
-              innovating leadership and team building events, and delegating
-              tasks to executive members
-            </p>
+
           </div>
-          <Image src={experienceimage} />
         </div>
 
         <div className={styles.card}>
           <div>
-            <h2 className="header2">
-              Junior Achievement Human Resources Member
+           
+           
+            <p className="classic">
+            An autonomous vehicle controlled by a live fish or joystick using
+              OpenCV, a Raspberry Pi, and an algorithm coded in Node.js. Virtual
+              joystick programmed with HTML and Javascript.
+            </p>
+            
+            <p className="italic"><strong>Technologies:</strong> Javascript, HTML, OpenCV, Node.js,
+              WPILib, Python</p>
+          </div>
+          <h2 className="header2">
+            02. MOTORIZED FISH-CONTROLLED VEHICLE
             </h2>
-            <p className="italic">The Kaizen Project and Studypod</p>
-            <p className="classic">
-              • Co-founded two podcast companies to aid high school students
-              develop their future
-            </p>
-            <p className="classic">
-              • Reached out to secure 20+ guest speakers and 6 sponsors for the
-              Kaizen Project, generating $830+ in sales and raising $100+ for
-              360Kids
-            </p>
-            <p className="classic">
-              • Networked with 50+ business professionals to pitch the company’s
-              product, increasing our investors by 110%
-            </p>
-          </div>
-          <Image src={kaizen} />
         </div>
         <div className={styles.card}>
+        <h2 className="header2">03. MATH QUIZ</h2>
+
           <div>
-            <h2 className="header2">Executive Member</h2>
-            <p className="italic">Markham Classics Club</p>
+
             <p className="classic">
-              • Collaborated with fellow executives to host events such as study
-              sessions for 100+ members
+            An interactive program with a graphical user interface developed
+              using Java and Java Swing to test the user’s knowledge on various
+              mathematics topics.
             </p>
-            <p className="classic">
-              • Awarded provincial champion at the Ontario Student’s Classics
-              Conference amongst 150+ participants
-            </p>
-            <p className="classic">
-              • Received Silver in the National Latin Vocabulary Exam and Bronze
-              in the National Classical Etymology Exam
-            </p>
+            <p className="italic">  <strong>Technologies:</strong> Java, JavaSwing, Eclipse Window
+              Builder</p>
+           
           </div>
         </div>
-        <div className={styles.card}>
-          <div>
-            <h2 className="header2">Hostess</h2>
-            <p className="italic">Mandarin Restaurant</p>
-            <p className="classic">
-              • Greeted customers when they arrived, seated them, and
-              accommodated for any issues they had
-            </p>
-            <p className="classic">
-              • Played a pivotal role in maintaining a positive experience and
-              impression for customers which required strong interpersonal
-              skills
-            </p>
-          </div>
-        </div>
+        
       </div>
+    </section>
     </section>
     </section>
   );

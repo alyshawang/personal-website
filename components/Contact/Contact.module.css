@@ -4,10 +4,11 @@
   border: none;
   border-radius: 10px;
   background-color: #CDDFE4;
+  background-color: #DDD5F1;
 
   padding: 18px;
   font-size: 20px;
-  font-family: "ClashDisplay-Variable";
+  font-family: "Satoshi-Variable";
   color: #3b4e54;
 }
 
@@ -21,10 +22,12 @@
   display: grid;
   gap: 25px;
   margin-bottom: 40px;
+  margin-top: 80px;
 }
 
 .button {
   background-color: #9ECBD9;
+  /* B89ED9 */
   font-family: "ClashDisplay-Variable";
   border-radius: 15px;
   padding: 15px 50px;
